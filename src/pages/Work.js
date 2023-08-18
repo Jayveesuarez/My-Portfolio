@@ -5,8 +5,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 
 const Work = () => {
-  <>
   return (
+    <>
     <AnimatePresence>
       <motion.div
         initial={{ opacity:0, y:15}}
@@ -18,12 +18,13 @@ const Work = () => {
           </h2>
           <p>Here are some of the projects on which I've worked.:</p>
           <hr />
-          <Projects />
+          <Projects/>
         </Container>
       </motion.div>
     </AnimatePresence>
+    </>
   );
-  </>
+  
 };
 
 export default Work;

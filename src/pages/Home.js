@@ -8,7 +8,9 @@ import { motion, AnimatePresence } from "framer-motion";
 
 
 const Home = () => {
+  
   return (
+    <>
     <section>
        <AnimatePresence>
           <motion.div
@@ -100,7 +102,9 @@ const Home = () => {
       </motion.div>
       </AnimatePresence>
     </section>
+    </>
   );
+  
 };
 
 export default Home;
