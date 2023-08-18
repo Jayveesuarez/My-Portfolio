@@ -10,7 +10,7 @@ const SocialLinks = ()=> {
       <Nav.Link href="https://www.facebook.com/jayvee.suarez.395">
         <FaFacebook />
       </Nav.Link>
-      <Nav.Link href="https://instagram.com/flaayzzuupp?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
+      <Nav.Link href="https://www.instagram.com/1flaayzzuupp/?hl=en">
         <FaInstagram />
       </Nav.Link>
     </div>

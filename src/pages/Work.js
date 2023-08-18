@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 
 const Work = () => {
+  <>
   return (
     <AnimatePresence>
       <motion.div
@@ -22,6 +23,7 @@ const Work = () => {
       </motion.div>
     </AnimatePresence>
   );
+  </>
 };
 
 export default Work;
